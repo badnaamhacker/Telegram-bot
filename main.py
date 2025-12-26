@@ -93,7 +93,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     db.commit()
 
     if not context.args:
-        await update.message.reply_text("👋 Bot ready. Group me file bhejo.")
+        await update.message.reply_text("👋 Bot ready. Group me upload the file.")
         return
 
     key = context.args[0]
