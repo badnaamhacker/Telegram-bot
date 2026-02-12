@@ -1,2 +1,3 @@
-python-telegram-bot==20.*
-aiosqlite
+flask
+requests
+python-dotenv
